@@ -19,7 +19,7 @@ jobs:
       #          code_unit_id: ""
 
       - name: Upload files to SCA Tool and start scan on Testing
-        uses: scatool/github-action@v0.2.1
+        uses: scatool/github-action@v0.2.2
         with:
           api_url: http://localhost:7070/api/v1/
           api_key: ${{ secrets.SCATOOL_API_KEY }}
