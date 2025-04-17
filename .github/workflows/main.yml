@@ -23,5 +23,5 @@ jobs:
         with:
           api_url: http://localhost:7070/api/v1/
           api_key: ${{ secrets.SCATOOL_API_KEY }}
-          code_unit_id: "c856d6f5-baa2-4bfb-9f8f-b46ee72eb3a9"
+          code_unit_id: "1f989a44-6ce4-4fa2-8690-88eb8d10d356"
           github_token: ${{ secrets.GITHUB_TOKEN }}
