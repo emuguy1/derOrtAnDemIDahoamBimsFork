@@ -24,7 +24,7 @@ jobs:
           api_url: http://localhost:7070/api/v1/
           api_key: ${{ secrets.SCATOOL_API_KEY }}
           project_id: "a031a6a2-a457-4379-9bbc-02c6c58350c9"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
 
       #- name: Upload files to SCA Tool and start scan on Testing-Server
       #  uses: scatool/github-action@v0.2.5
