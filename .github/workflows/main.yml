@@ -27,7 +27,7 @@ jobs:
           #github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload files to SCA Tool and start scan on Testing-Server
-        uses: scatool/github-action@v0.2.5
+        uses: scatool/github-action@v0.4.2
         with:
           api_url: http://10.131.64.77/api/v1/
           api_key: "sca2026-05-02toolRyOHNQ-btsGZTKgxoFAd_FL3H1JRWLKZoTuRxMg0DTQ"
