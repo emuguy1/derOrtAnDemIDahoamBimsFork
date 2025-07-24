@@ -33,3 +33,15 @@ jobs:
           api_key: "sca2026-07-23toolYryZVHApYtLW5Bn8vgW9X8uvOhYXzduXm6w19vNLL30"
           project_id: "ccb33939-8634-48b2-9ed7-d4d9296508bf"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload files to SCA Tool and start scan on Staging-Server
+        uses: scatool/github-action@v0.4.3
+        with:
+          api_url: https://staging.scatool.com/api/v1/
+          api_key: "sca2026-07-24toolp1FMBjwRE-M--5NlAT26abzAhFvCFkBgJ4ZmmwYDiRk"
+          project_id: "53042bac-cd52-44d8-b57b-cf68ee9c1102"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+          
