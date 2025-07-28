@@ -19,7 +19,7 @@ jobs:
       #          code_unit_id: ""
 
       - name: Upload files to SCA Tool and start scan on Locally
-        uses: scatool/github-action@v0.4.3
+        uses: scatool/github-action@v0.4.4
         with:
           api_url: http://localhost:7070/api/v1/
           api_key: ${{ secrets.SCATOOL_API_KEY }}
@@ -27,7 +27,7 @@ jobs:
           #github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload files to SCA Tool and start scan on Testing-Server
-        uses: scatool/github-action@v0.4.3
+        uses: scatool/github-action@v0.4.4
         with:
           api_url: http://10.131.64.77/api/v1/
           api_key: "sca2026-07-23toolYryZVHApYtLW5Bn8vgW9X8uvOhYXzduXm6w19vNLL30"
@@ -35,7 +35,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload files to SCA Tool and start scan on Staging-Server
-        uses: scatool/github-action@v0.4.3
+        uses: scatool/github-action@v0.4.4
         with:
           api_url: https://staging.scatool.com/api/v1/
           api_key: "sca2026-07-24toolp1FMBjwRE-M--5NlAT26abzAhFvCFkBgJ4ZmmwYDiRk"
